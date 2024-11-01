@@ -11,7 +11,7 @@ pipeline {                            // 1  // Defines the start of the Jenkins 
 
 
 
---------------------------
+
 PipelineJob2
 
 pipeline {                            // 1  // Defines the start of the Jenkins pipeline block
@@ -39,7 +39,7 @@ pipeline {                            // 1  // Defines the start of the Jenkins 
 }                                     // 1  // Ends the pipeline block
 
 
-----------------------------
+
 PipelineJob3
 
 pipeline {                            // 1  // Defines the start of the Jenkins pipeline block
@@ -68,7 +68,7 @@ pipeline {                            // 1  // Defines the start of the Jenkins 
 }                                     // 1  // Ends the pipeline block
 
 
-----------------------------
+
 PipelineJob4
 
 pipeline {                            // 1  // Defines the start of the Jenkins pipeline block
@@ -86,8 +86,8 @@ pipeline {                            // 1  // Defines the start of the Jenkins 
     }                                 // 2  // Ends the stages block
 }                                     // 1  // Ends the pipeline block
 
--------------------------------
-PipelineJob6
+
+PipelineJob5
 
 To create maven pipeline job, make sure maven is installed, set its environment variable and set up global tool configuration
 
