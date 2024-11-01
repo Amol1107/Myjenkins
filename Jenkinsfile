@@ -89,7 +89,7 @@ pipeline {                            // 1  // Defines the start of the Jenkins 
 
 PipelineJob5
 
-To create maven pipeline job, make sure maven is installed, set its environment variable and set up global tool configuration
+To create maven pipeline job make sure maven is installed set its environment variable and set up global tool configuration
 
 pipeline {                                    // 1  // Defines the start of the Jenkins pipeline block
     agent any                                 // Specifies the pipeline can run on any available agent
