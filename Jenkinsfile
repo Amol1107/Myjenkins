@@ -76,11 +76,11 @@ pipeline {                            // 1  // Defines the start of the Jenkins 
     stages {                          // 2  // Defines the stages block where multiple stages are declared
         stage('Stage 1') {            // 3  // Creates a stage named 'Stage 1'
             steps {                   // 4  // Defines the steps that will be executed in this stage
-                sh '''                // Starts a multi-line shell block
-                ls                    // Lists the files in the current directory
-                date                  // Prints the current date
-                cal 2021              // Displays the calendar for the year 2021
-                '''                   // Ends the multi-line shell block
+                sh '''                
+                ls                    
+                date                  
+                cal 2021              
+                '''                   
             }                         // 4  // Ends the steps block for 'Stage 1'
         }                             // 3  // Ends the 'Stage 1' stage
     }                                 // 2  // Ends the stages block
@@ -99,7 +99,7 @@ pipeline {                                    // 1  // Defines the start of the 
     stages {                                  // 3  // Defines the stages block where multiple stages are declared
         stage('git clone') {                  // 4  // Creates a stage named 'git clone'
             steps {                           // 5  // Defines the steps that will be executed in this stage
-                git url: 'https://github.com/SaiDevOpsFaculty/war-web-project.git', branch: 'master'  
+                git url: 'https://github.com/Amol1107/war-web-project.git', branch: 'master'  
                                               // Clones the specified GitHub repository from the master branch
             }                                 // 5  // Ends the steps block for 'git clone' stage
         }                                     // 4  // Ends the 'git clone' stage
